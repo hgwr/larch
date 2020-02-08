@@ -23,17 +23,17 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<amalgalite>, ["~> 1.0"])
       s.add_runtime_dependency(%q<highline>, ["~> 1.5"])
       s.add_runtime_dependency(%q<sequel>, ["~> 3.14"])
-      s.add_runtime_dependency(%q<trollop>, ["~> 1.13"])
+      s.add_runtime_dependency(%q<trollop>, ">= 1.13", "< 3.0")
     else
       s.add_dependency(%q<amalgalite>, ["~> 1.0"])
       s.add_dependency(%q<highline>, ["~> 1.5"])
       s.add_dependency(%q<sequel>, ["~> 3.14"])
-      s.add_dependency(%q<trollop>, ["~> 1.13"])
+      s.add_dependency(%q<trollop>, ">= 1.13", "< 3.0")
     end
   else
     s.add_dependency(%q<amalgalite>, ["~> 1.0"])
     s.add_dependency(%q<highline>, ["~> 1.5"])
     s.add_dependency(%q<sequel>, ["~> 3.14"])
-    s.add_dependency(%q<trollop>, ["~> 1.13"])
+    s.add_dependency(%q<trollop>, ">= 1.13", "< 3.0")
   end
 end
